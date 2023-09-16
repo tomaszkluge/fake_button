@@ -15,7 +15,7 @@ def win():
     global label
     label = Label(t, text="Correct button")
     label.pack(fill=BOTH, expand=YES)
-    t.after(5000, restart)
+    t.after(1000, restart)
 
 
 def loose():
